@@ -3,7 +3,7 @@
 extern "C" {
 
 void hello() {
-    printf("Hello from C++!\n");
+    []{ printf("Hello from C++!\n"); }();
 }
 
 }
